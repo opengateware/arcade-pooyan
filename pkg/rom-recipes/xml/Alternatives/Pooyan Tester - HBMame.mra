@@ -1,0 +1,19 @@
+<misterromdescription>
+    <name>Pooyan</name>
+    <homebrew>yes</homebrew>
+    <bootleg>no</bootleg>
+    <setname>pooyaiag</setname>
+    <mameversion>0240</mameversion>
+    <rom index="0" md5="4e11462566dc7185cf6351d135140be7" zip="/hbmame/pooyan.zip">
+        <part crc="a583d5c9" name="pooyandiag/diag.4a"></part>
+        <part crc="a1463d98" name="2.5a"></part>
+        <part crc="fe1a9e08" name="3.6a"></part>
+        <part crc="9e0f9bcc" name="4.7a"></part>
+        <part crc="931b29eb" name="8.10g"></part>
+        <part crc="bbe6d6e4" name="7.9g"></part>
+        <part crc="b2d8c121" name="6.9a"></part>
+        <part crc="1097c2b6" name="5.8a"></part>
+        <part crc="fbe2b368" name="xx.7a"></part>
+        <part crc="e1795b3d" name="xx.8a"></part>
+    </rom>
+</misterromdescription>

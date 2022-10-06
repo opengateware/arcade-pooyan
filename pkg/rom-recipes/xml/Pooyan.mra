@@ -1,0 +1,19 @@
+<misterromdescription>
+    <name>Pooyan</name>
+    <homebrew>no</homebrew>
+    <bootleg>no</bootleg>
+    <setname>pooyan</setname>
+    <mameversion>0240</mameversion>
+    <rom index="0" zip="pooyan.zip" md5="de106fd90992460848b7856876a4e330">
+        <part crc="bb319c63" name="1.4a" />
+        <part crc="a1463d98" name="2.5a" />
+        <part crc="fe1a9e08" name="3.6a" />
+        <part crc="9e0f9bcc" name="4.7a" />
+        <part crc="931b29eb" name="8.10g" />
+        <part crc="bbe6d6e4" name="7.9g" />
+        <part crc="b2d8c121" name="6.9a" />
+        <part crc="1097c2b6" name="5.8a" />
+        <part crc="fbe2b368" name="xx.7a" />
+        <part crc="e1795b3d" name="xx.8a" />
+    </rom>
+</misterromdescription>

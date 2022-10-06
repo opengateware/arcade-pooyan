@@ -1,0 +1,33 @@
+{
+    "name": "pooyan",
+    "displayName": "pooyan",
+    "description": "Konami Pooyan Compatible Gateware IP Core for FPGA",
+    "author": "boogermann",
+    "version": "0.1.0",
+    "license": "GPL-3.0-or-later",
+    "repository": "https://github.com/opengateware/arcade-pooyan",
+    "keywords": [
+        "ecosystem:gateman"
+    ],
+    "scripts": {
+        "verilator": "echo \"Error: no simulation specified\" && exit 1"
+    },
+    "hardware": {
+        "id": "pooyan",
+        "name": "Pooyan",
+        "year": 1982,
+        "manufacturer": "Konami"
+    },
+    "platforms": {
+        "pocket": "1.1.0"
+    },
+    "modules": {
+        "cpu-t80": "3.5.1",
+        "general-sync_fifo": "0.1.0",
+        "pocket-dataloader": "1.0.0",
+        "pocket-i2s": "1.0.0",
+        "pocket-joypad": "1.0.0",
+        "pocket-video": "1.0.0",
+        "sound-ym2149": "0.1.0"
+    }
+}

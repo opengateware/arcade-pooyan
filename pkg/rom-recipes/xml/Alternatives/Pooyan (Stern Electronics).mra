@@ -1,0 +1,19 @@
+<misterromdescription>
+    <name>Pooyan</name>
+    <homebrew>no</homebrew>
+    <bootleg>no</bootleg>
+    <setname>pooyans</setname>
+    <mameversion>0240</mameversion>
+    <rom index="0" md5="038f17001fe59303a36e23dd37a9bf61" zip="pooyan.zip|pooyans.zip">
+        <part crc="916ae7d7" name="ic22_a4.cpu"></part>
+        <part crc="8fe38c61" name="ic23_a5.cpu"></part>
+        <part crc="2660218a" name="ic24_a6.cpu"></part>
+        <part crc="3d2a10ad" name="ic25_a7.cpu"></part>
+        <part crc="7433aea9" name="ic13_g10.cpu"></part>
+        <part crc="87c1789e" name="ic14_g9.cpu"></part>
+        <part crc="b2d8c121" name="6.9a"></part>
+        <part crc="1097c2b6" name="5.8a"></part>
+        <part crc="fbe2b368" name="xx.7a"></part>
+        <part crc="e1795b3d" name="xx.8a"></part>
+    </rom>
+</misterromdescription>

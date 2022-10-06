@@ -1,0 +1,20 @@
+# ==============================================================================
+# RTL
+# ==============================================================================
+set_global_assignment -name VHDL_FILE [file join $::quartus(qip_path) "gen_ram.vhd"]
+set_global_assignment -name VHDL_FILE [file join $::quartus(qip_path) "dpram.vhd"]
+set_global_assignment -name VHDL_FILE [file join $::quartus(qip_path) "pooyan_sound_board.vhd"]
+set_global_assignment -name VHDL_FILE [file join $::quartus(qip_path) "pooyan.vhd"]
+
+# ==============================================================================
+# PROM
+# ==============================================================================
+set_global_assignment -name VHDL_FILE [file join $::quartus(qip_path) "prom/pooyan_char_color_lut.vhd"]
+set_global_assignment -name VHDL_FILE [file join $::quartus(qip_path) "prom/pooyan_palette.vhd"]
+set_global_assignment -name VHDL_FILE [file join $::quartus(qip_path) "prom/pooyan_sprite_color_lut.vhd"]
+
+# ==============================================================================
+# MODULES
+# ==============================================================================
+set_global_assignment -name QIP_FILE [file join $::quartus(qip_path) "../modules/cpu-t80/index.qip"]
+set_global_assignment -name QIP_FILE [file join $::quartus(qip_path) "../modules/sound-ym2149/index.qip"]
